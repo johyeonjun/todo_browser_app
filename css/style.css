@@ -1,0 +1,27 @@
+.hidden {
+    display: none;
+}
+
+#clock{
+    font-size: 50pt;
+    color: #efeeee;
+}
+#weather{
+    float: right;
+    color: seashell;
+    font-size: 15pt;
+}
+
+
+
+input::placeholder {
+    color: white;
+    font-style: italic;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
