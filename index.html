@@ -11,29 +11,17 @@
     </style>
     
 </head>
-<body style="text-align: center; height: 100%;">
-    <div class="wrapper">
-        <div class="content">
+<body style="text-align: center; height: 100%;margin-top: 250px;">
             <h2 id="clock">00:00:00</h2>
             <form id="login-form" class="hidden">
-                <input  required maxlength="15" autofocus type="text" placeholder="what is your name?" style=" border: 0;
-                outline: 0;
-                background: transparent;
-                border-bottom: 1px solid #ffffff;
-                height: 30px;
-                font-size: 15pt;
-                color: white;">
-                <input type="submit" value="로그인" style="
-                border-radius: 6px;
-                width: 80px;
-                height: 30px;
-                background-color: palegoldenrod;">
+                <input  required maxlength="15" autofocus type="text" placeholder="what is your name?" style=" ">
+                <input type="submit" value="로그인" style="">
                 <!-- <a href="https://nomadcoders.co/">Go to courses</a> -->
             </form>
             <h1 id="greeting" class="hidden"></h1>
             
             <form id="todo-form">
-                <input type="text" placeholder="Write a To Do and Press" required>
+                <input type="text" placeholder="Write a To Do and Press" required style="margin-top: 60px;font-style: normal;">
             </form>
             <ul id="todo-list"></ul>
             <div id="quote">
@@ -43,8 +31,7 @@
             <div id="weather">
                 <span></span>
                 <span></span>
-            </div>
-        </div>
+       
     </div>
     
     <script src="js/greetings.js"></script>
