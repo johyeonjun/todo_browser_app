@@ -8,7 +8,7 @@
 }
 #clock{
     font-size: 50pt;
-    color: #efe460;
+    color: #ebefef;
 }
 #weather{
     float: right;
@@ -16,7 +16,9 @@
     font-size: 15pt;
     margin-top: 200px;
 }
-
+ul{
+    list-style:none;
+    }
 input::placeholder {
     color: white;
     font-style: italic;
